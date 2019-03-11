@@ -1,0 +1,10 @@
+C:\Users\Quentin\source\repos\AppliFraisWebService\AppliFraisWebService\bin\AppliFraisWebService.dll.config
+C:\Users\Quentin\source\repos\AppliFraisWebService\AppliFraisWebService\bin\AppliFraisWebService.dll
+C:\Users\Quentin\source\repos\AppliFraisWebService\AppliFraisWebService\bin\AppliFraisWebService.pdb
+C:\Users\Quentin\source\repos\AppliFraisWebService\AppliFraisWebService\bin\EntityFramework.dll
+C:\Users\Quentin\source\repos\AppliFraisWebService\AppliFraisWebService\bin\EntityFramework.xml
+C:\Users\Quentin\source\repos\AppliFraisWebService\AppliFraisWebService\bin\fr\EntityFramework.resources.dll
+C:\Users\Quentin\source\repos\AppliFraisWebService\AppliFraisWebService\obj\Release\AppliFraisWebService.csproj.CoreCompileInputs.cache
+C:\Users\Quentin\source\repos\AppliFraisWebService\AppliFraisWebService\obj\Release\AppliFraisWebService.csproj.CopyComplete
+C:\Users\Quentin\source\repos\AppliFraisWebService\AppliFraisWebService\obj\Release\AppliFraisWebService.dll
+C:\Users\Quentin\source\repos\AppliFraisWebService\AppliFraisWebService\obj\Release\AppliFraisWebService.pdb

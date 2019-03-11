@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="gsb_fraisModelStoreContainer" CdmEntityContainer="gsb_fraisEntities">
+    <EntitySetMapping Name="etat">
+      <EntityTypeMapping TypeName="gsb_fraisModel.etat">
+        <MappingFragment StoreEntitySet="etat">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="libelle" ColumnName="libelle" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="fichefrais">
+      <EntityTypeMapping TypeName="gsb_fraisModel.fichefrais">
+        <MappingFragment StoreEntitySet="fichefrais">
+          <ScalarProperty Name="idVisiteur" ColumnName="idVisiteur" />
+          <ScalarProperty Name="mois" ColumnName="mois" />
+          <ScalarProperty Name="nbJustificatifs" ColumnName="nbJustificatifs" />
+          <ScalarProperty Name="montantValide" ColumnName="montantValide" />
+          <ScalarProperty Name="dateModif" ColumnName="dateModif" />
+          <ScalarProperty Name="idEtat" ColumnName="idEtat" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="fraisforfait">
+      <EntityTypeMapping TypeName="gsb_fraisModel.fraisforfait">
+        <MappingFragment StoreEntitySet="fraisforfait">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="libelle" ColumnName="libelle" />
+          <ScalarProperty Name="montant" ColumnName="montant" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="lignefraisforfait">
+      <EntityTypeMapping TypeName="gsb_fraisModel.lignefraisforfait">
+        <MappingFragment StoreEntitySet="lignefraisforfait">
+          <ScalarProperty Name="idVisiteur" ColumnName="idVisiteur" />
+          <ScalarProperty Name="mois" ColumnName="mois" />
+          <ScalarProperty Name="idFraisForfait" ColumnName="idFraisForfait" />
+          <ScalarProperty Name="quantite" ColumnName="quantite" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="lignefraishorsforfait">
+      <EntityTypeMapping TypeName="gsb_fraisModel.lignefraishorsforfait">
+        <MappingFragment StoreEntitySet="lignefraishorsforfait">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="idVisiteur" ColumnName="idVisiteur" />
+          <ScalarProperty Name="mois" ColumnName="mois" />
+          <ScalarProperty Name="libelle" ColumnName="libelle" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="montant" ColumnName="montant" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="visiteur">
+      <EntityTypeMapping TypeName="gsb_fraisModel.visiteur">
+        <MappingFragment StoreEntitySet="visiteur">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nom" ColumnName="nom" />
+          <ScalarProperty Name="prenom" ColumnName="prenom" />
+          <ScalarProperty Name="login" ColumnName="login" />
+          <ScalarProperty Name="mdp" ColumnName="mdp" />
+          <ScalarProperty Name="groupe" ColumnName="groupe" />
+          <ScalarProperty Name="adresse" ColumnName="adresse" />
+          <ScalarProperty Name="cp" ColumnName="cp" />
+          <ScalarProperty Name="ville" ColumnName="ville" />
+          <ScalarProperty Name="dateEmbauche" ColumnName="dateEmbauche" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
